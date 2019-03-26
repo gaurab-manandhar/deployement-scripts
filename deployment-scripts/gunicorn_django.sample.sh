@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME="mdps"                                        # name of the application
+NAME=mdps                                        # name of the application
 DJANGODIR=/home/server/project/mdps                        # django project directory
 SOCKFILE=/home/server/project/mdps/venv/run/gunicorn.sock  # we will communicte using this unix socket
 USER=server                                                # the user to run as

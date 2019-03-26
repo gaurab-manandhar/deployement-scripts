@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-NAME="mdps_celery"                          # name of the application
+NAME=mdps_celery                         # name of the application
 PROJECT_DIR=/home/server/project/mdps               # project directory
 APP_DIR="<application_dir>"                           # can be project dir
 APP_MODULE=<app_module_name>                          # application module name

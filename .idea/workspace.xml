@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb631dd6-ce9c-4dd3-9391-4c8e8a0355b5" name="Default" comment="Change virtual environment">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment-scripts/mdps/celery_runner.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment-scripts/mdps/gunicorn_django.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment-scripts/mdps/nginx_site_config.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment-scripts/mdps/supervisor_mdpsapp.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf" beforeDir="false" afterPath="$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,29 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deployment-scripts/server-setup.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="268">
+              <caret line="71" column="20" selection-start-line="71" selection-end-line="71" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deployment-scripts/gunicorn_flask.sample.sh">
+        <entry file="file://$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-end-line="5" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deployment-scripts/mdps/gunicorn_django.sh">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -51,24 +48,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-end-column="19" />
+            <state relative-caret-position="183">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deployment-scripts/celery_runner.sample.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deployment-scripts/mdps/celery_runner.sh">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -87,24 +70,26 @@
       <list>
         <option value="$PROJECT_DIR$/deployment-scripts/supervisor_sampleapp.conf" />
         <option value="$PROJECT_DIR$/deployment-scripts/server-setup.sh" />
-        <option value="$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh" />
-        <option value="$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf" />
-        <option value="$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf" />
         <option value="$PROJECT_DIR$/deployment-scripts/mdps/gunicorn_django.sh" />
         <option value="$PROJECT_DIR$/deployment-scripts/celery_runner.sample.sh" />
+        <option value="$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh" />
+        <option value="$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf" />
+        <option value="$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="26" />
-    <option name="width" value="1366" />
-    <option name="height" value="742" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="959" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,21 +102,14 @@
               <item name="deployement-scripts" type="462c0819:PsiDirectoryNode" />
               <item name="deployment-scripts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="deployement-scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deployement-scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="deployment-scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="mdps" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../serial_module" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -175,10 +153,10 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24627976" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24627976" />
       <window_info id="Structure" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32840723" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32733223" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -215,31 +193,10 @@
     <entry file="file://$PROJECT_DIR$/deployment-scripts/mdps/nginx_site_config.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deployment-scripts/gunicorn_flask.sample.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-end-column="19" />
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -250,9 +207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deployment-scripts/mdps/celery_runner.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/deployment-scripts/celery_runner.sample.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -260,10 +214,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-scripts/mdps/celery_runner.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/deployment-scripts/server-setup.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        <state relative-caret-position="268">
+          <caret line="71" column="20" selection-start-line="71" selection-end-line="71" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-scripts/gunicorn_django.sample.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-scripts/supervisor_mdpsapp.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-end-line="5" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deployment-scripts/nginx_site_config.sample.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
